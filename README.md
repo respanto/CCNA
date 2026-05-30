@@ -121,6 +121,8 @@ This study kit is built around three primary resources:
 | CCNA Course Notes | Primary notes | Written review, quick revision, concept reinforcement | [psaumur/CCNA_Course_Notes](https://github.com/psaumur/CCNA_Course_Notes) |
 | CCNA-Labs | Primary labs | Extra hands-on Packet Tracer practice | [O2sa/CCNA-Labs](https://github.com/O2sa/CCNA-Labs) |
 
+> **Resource licensing note:** Linked third-party resources remain under their respective owners' licenses, terms, and usage policies. This repository curates and links to those resources; do not redistribute, modify, or package third-party content unless that resource's license explicitly permits it.
+
 ### Resource Comparison Table
 
 | Criteria | Jeremy's IT Lab | CCNA Course Notes | CCNA-Labs |
@@ -304,7 +306,7 @@ Small daily progress prevents knowledge decay.
 
 ## 📊 CCNA Exam Domains and Percentages
 
-The CCNA 200-301 blueprint is organized into six domains.
+The CCNA 200-301 v1.1 blueprint is organized into six domains. Always confirm details against Cisco's official exam topics before scheduling.
 
 | Domain | Percentage | What to Master |
 |---|---:|---|
@@ -424,7 +426,7 @@ Topology:
 |---|---:|---|---|
 | Cisco Packet Tracer | Yes | Build CCNA-level network labs | [Cisco Networking Academy](https://www.netacad.com/cisco-packet-tracer) |
 | Wireshark | Recommended | Inspect packets and understand protocols | [wireshark.org](https://www.wireshark.org/) |
-| Cisco Modeling Labs | Optional | More advanced Cisco network simulation | [Cisco CML](https://www.cisco.com/site/us/en/products/networking/cloud-networking/modeling-labs/index.html) |
+| Cisco Modeling Labs | Optional | More advanced Cisco network simulation | [Cisco CML](https://developer.cisco.com/modeling-labs/) |
 | VS Code | Recommended | Organize notes, configs, Markdown, and diagrams | [code.visualstudio.com](https://code.visualstudio.com/) |
 
 ### Tool setup recommendations
@@ -752,7 +754,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-> For best practice, this repository should also include a standalone `LICENSE` file containing the MIT License text.
+> A standalone `LICENSE` file is included so GitHub can detect the repository license.
 
 ---
 
