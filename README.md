@@ -396,22 +396,22 @@ Topic:
 Topology:
 
 ### Goal
-- 
+- <!-- Describe the lab goal. -->
 
 ### Configuration Summary
-- 
+- <!-- Summarize the key configuration steps. -->
 
 ### Verification Commands
-- 
+- <!-- List the show, ping, or traceroute commands used. -->
 
 ### Problems Encountered
-- 
+- <!-- Record mistakes, symptoms, and fixes. -->
 
 ### What I Learned
-- 
+- <!-- Capture the main takeaway. -->
 
 ### Commands to Review
-- 
+- <!-- Add commands that need more practice. -->
 ```
 
 </details>
