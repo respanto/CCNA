@@ -25,6 +25,7 @@ Built for **students**, **self-learners**, **career changers**, **instructors**,
 - [Learning Objectives](#-learning-objectives)
 - [Core Free Resources](#-core-free-resources)
 - [Getting Started in 30 Minutes](#-getting-started-in-30-minutes)
+- [Starter Pack: Git and Coding Agents](#-starter-pack-git-and-coding-agents)
 - [Pass CCNA in 90 Days](#-pass-ccna-in-90-days)
 - [Study Roadmap](#-study-roadmap)
 - [12-Week Study Plan](#-12-week-study-plan)
@@ -187,6 +188,125 @@ git clone https://github.com/O2sa/CCNA-Labs.git
 ```
 
 > If you are not comfortable with Git yet, you can also use GitHub's **Code > Download ZIP** button.
+
+---
+
+## 🚀 Starter Pack: Git and Coding Agents
+
+You do not need to be a software engineer to use this repository well. A little Git knowledge and a careful coding-agent workflow will help you save notes, track labs, and contribute improvements confidently.
+
+### Git basics for CCNA learners
+
+| Concept | Plain-English Meaning | CCNA Study Example |
+|---|---|---|
+| Repository | A project folder with history | Your CCNA notes and lab configs |
+| Clone | Download a repository to your computer | Copy the notes or labs repo locally |
+| Commit | Save a meaningful checkpoint | "Add week 3 subnetting notes" |
+| Branch | Work safely without changing the main copy | Draft a new lab guide before sharing |
+| Pull | Download the latest changes | Update your local copy before studying |
+| Push | Upload your commits to GitHub | Back up your notes or submit a PR |
+| Pull Request | Ask maintainers to review and merge your changes | Suggest a roadmap improvement |
+
+### Essential Git commands
+
+```bash
+# Download a repository
+git clone https://github.com/psaumur/CCNA_Course_Notes.git
+
+# Check what changed
+git status
+
+# Create a safe branch for your work
+git checkout -b improve-study-notes
+
+# Stage and commit changes
+git add README.md
+git commit -m "Add subnetting review tips"
+
+# Upload your branch to GitHub
+git push -u origin improve-study-notes
+```
+
+<details>
+<summary><strong>Beginner Git workflow for this repository</strong></summary>
+
+1. **Sync first:** make sure you are working from the latest version.
+2. **Create a branch:** keep your edits isolated.
+3. **Make one focused change:** for example, improve one checklist or fix one typo.
+4. **Review the diff:** confirm exactly what changed before committing.
+5. **Commit with a clear message:** describe the learning value of the change.
+6. **Open a pull request:** explain what you changed and why it helps CCNA learners.
+
+```bash
+git status
+git diff
+git add README.md
+git commit -m "Improve VLAN study checklist"
+git push -u origin improve-vlan-checklist
+```
+
+</details>
+
+### Coding agent basics
+
+A coding agent is an AI assistant that can read files, edit documentation, run checks, and prepare pull requests. Use it like a junior teammate: give clear goals, provide constraints, and always review the result.
+
+| Use Case | Good Agent Task | What You Should Verify |
+|---|---|---|
+| Improve notes | "Summarize OSPF neighbor states for beginners" | Accuracy against Cisco/Jeremy's IT Lab material |
+| Build checklists | "Create a VLAN lab checklist from this topology" | Commands and verification steps |
+| Fix markdown | "Clean up table formatting in README.md" | No broken links or deleted content |
+| Study planning | "Turn these weak topics into a 7-day review plan" | Realistic scope and correct topic order |
+| Troubleshooting practice | "Create three Packet Tracer failure scenarios for NAT" | Scenarios are solvable and CCNA-level |
+
+### Prompt templates for coding agents
+
+```text
+You are helping maintain a CCNA 200-301 study repository.
+Task: Improve the section about <topic> for beginner learners.
+Constraints:
+- Use GitHub-flavored Markdown.
+- Keep resources free and legal.
+- Do not include exam dumps or real exam questions.
+- Prefer tables, checklists, and concise explanations.
+- Preserve existing links and acknowledgements.
+Verification:
+- Check markdown formatting.
+- Confirm the final content is accurate for CCNA 200-301.
+```
+
+```text
+Create a CCNA lab checklist for <topic>.
+Include:
+- Topology goal
+- Required devices
+- Configuration steps
+- Verification commands
+- Common mistakes
+- Troubleshooting hints
+Keep it suitable for Cisco Packet Tracer beginners.
+```
+
+### Safe coding-agent rules
+
+| Rule | Why It Matters |
+|---|---|
+| Never paste passwords, API keys, tokens, private keys, or real customer configs | Protects secrets and prevents accidental credential leaks |
+| Ask for small, focused changes | Easier to review and less likely to break the README |
+| Review every diff before committing | You are responsible for what gets merged |
+| Require citations or source links for factual claims | Networking details must be accurate |
+| Avoid exam dumps or real exam questions | Protects learners and respects certification rules |
+| Keep a human learning loop | Do not let the agent replace hands-on practice |
+
+### Mini checklist: first contribution with an agent
+
+- [ ] I understand the topic I am asking the agent to edit.
+- [ ] My prompt includes the goal, audience, and constraints.
+- [ ] I reviewed the generated markdown line by line.
+- [ ] I checked links and commands.
+- [ ] I ran `git diff` before committing.
+- [ ] I did not include secrets, copyrighted paid content, or exam dumps.
+- [ ] My pull request explains how the change helps CCNA learners.
 
 ---
 
